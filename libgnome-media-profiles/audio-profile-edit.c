@@ -230,7 +230,7 @@ gm_audio_profile_edit_new (GConfClient *conf, const char *id)
   /* get the dialog */
   builder = gmp_util_load_builder_file ("gnome-audio-profile-edit.ui", NULL, &error);
   if (error != NULL) {
-    g_warning (error->message);
+    g_warning ("%s", error->message);
     g_error_free (error);
     return NULL;
   }
