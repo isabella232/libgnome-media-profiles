@@ -64,7 +64,7 @@ msgstr "R_edakti"
 #, c-format
 msgid "Delete this profile?\n"
 msgid_plural "Delete these %d profiles?\n"
-msgstr[0] "Ĉu forigi ĉi tiun profilon?\n"
+msgstr[0] "Ĉu forigi ĉi tiun profilon?\n"
 msgstr[1] "Ĉu forigi tiujn %d profilojn?\n"
 
 #: ../libgnome-media-profiles/audio-profiles-edit.c:475
