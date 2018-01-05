@@ -1,100 +1,101 @@
 # Esperanto translation for libgnome-media-profiles.
 # Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the libgnome-media-profiles package.
-# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011, 2014.
-#
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011, 2014, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-media\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libgnome-media-profiles&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-19 14:37+0000\n"
-"PO-Revision-Date: 2014-03-20 12:43+0100\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product"
+"=libgnome-media-profiles&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-04-08 15:13+0000\n"
+"PO-Revision-Date: 2018-01-06 00:54+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
-"Language-Team: Esperanto <gnome-l10n-eo@lists.launchpad.net>\n"
+"Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
-#: ../libgnome-media-profiles/audio-profile-edit.c:121
-#: ../libgnome-media-profiles/audio-profiles-edit.c:529
+#: ../libgnome-media-profiles/audio-profile-edit.c:119
+#: ../libgnome-media-profiles/audio-profiles-edit.c:527
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Okazis eraro montrante helpon: %s"
 
-#: ../libgnome-media-profiles/audio-profile-edit.c:341
+#: ../libgnome-media-profiles/audio-profile-edit.c:339
 #, c-format
 msgid "Editing profile \"%s\""
 msgstr "Redakti profilon \"%s\""
 
-#: ../libgnome-media-profiles/audio-profile.c:96
+#: ../libgnome-media-profiles/audio-profile.c:94
 msgid "<no name>"
 msgstr "<sen nomo>"
 
-#: ../libgnome-media-profiles/audio-profile.c:97
-#: ../libgnome-media-profiles/audio-profile.c:1006
+#: ../libgnome-media-profiles/audio-profile.c:95
+#: ../libgnome-media-profiles/audio-profile.c:1004
 msgid "<no description>"
 msgstr "<sen priskribo>"
 
-#: ../libgnome-media-profiles/audio-profile.c:212
+#: ../libgnome-media-profiles/audio-profile.c:210
 #, c-format
 msgid "There was an error getting the list of gm_audio profiles. (%s)\n"
-msgstr ""
+msgstr "Eraro okazis dum akiro de listo de gm_audio-profiloj. (%s)\n"
 
-#: ../libgnome-media-profiles/audio-profile.c:713
+#: ../libgnome-media-profiles/audio-profile.c:711
 #, c-format
 msgid ""
 "There was an error subscribing to notification of audio profile list "
 "changes. (%s)\n"
 msgstr ""
 
-#: ../libgnome-media-profiles/audio-profile.c:916
+#: ../libgnome-media-profiles/audio-profile.c:914
 #, c-format
 msgid "There was an error forgetting profile path %s. (%s)\n"
-msgstr ""
+msgstr "Eraro okazis dum forgesado de profilpado %s. (%s)\n"
 
-#: ../libgnome-media-profiles/audio-profiles-edit.c:78
+#: ../libgnome-media-profiles/audio-profiles-edit.c:76
 msgid "_Edit"
 msgstr "R_edakti"
 
 #. the first argument will never be used since we only run for count > 1
-#: ../libgnome-media-profiles/audio-profiles-edit.c:456
+#: ../libgnome-media-profiles/audio-profiles-edit.c:454
 #, c-format
 msgid "Delete this profile?\n"
 msgid_plural "Delete these %d profiles?\n"
 msgstr[0] "Ĉu forigi ĉi tiun profilon?\n"
 msgstr[1] "Ĉu forigi tiujn %d profilojn?\n"
 
-#: ../libgnome-media-profiles/audio-profiles-edit.c:475
+#: ../libgnome-media-profiles/audio-profiles-edit.c:473
 #, c-format
 msgid "Delete profile \"%s\"?"
 msgstr "Ĉu forigi profilon \"%s\"?"
 
-#: ../libgnome-media-profiles/audio-profiles-edit.c:497
+#: ../libgnome-media-profiles/audio-profiles-edit.c:495
 msgid "Delete Profile"
 msgstr "Forigi profilon"
 
-#: ../libgnome-media-profiles/audio-profiles-edit.c:590
+#: ../libgnome-media-profiles/audio-profiles-edit.c:588
 msgid "Edit GNOME Audio Profiles"
 msgstr "Redakti sonprofiloj de GNOMEo"
 
-#: ../libgnome-media-profiles/audio-profiles-edit.c:638
+#: ../libgnome-media-profiles/audio-profiles-edit.c:636
 msgid "_Profiles:"
 msgstr "_Profiloj:"
 
-#: ../libgnome-media-profiles/audio-profiles-edit.c:822
+#: ../libgnome-media-profiles/audio-profiles-edit.c:820
 #, c-format
 msgid "You already have a profile called \"%s\""
 msgstr "Vi jam nomis profilon \"%s\""
 
-#: ../libgnome-media-profiles/audio-profiles-edit.c:847
+#: ../libgnome-media-profiles/audio-profiles-edit.c:845
 #, c-format
 msgid "GConf Error (FIXME): %s\n"
 msgstr "GConf-eraro (FIXME): %s\n"
 
-#: ../libgnome-media-profiles/gmp-util.c:61
+#: ../libgnome-media-profiles/gmp-util.c:59
 #, c-format
 msgid ""
 "The file \"%s\" is missing. This indicates that the application is installed "
@@ -103,7 +104,7 @@ msgstr ""
 "La dosiero \"%s\" mankas. Tio indikas ke la aplikaĵo estas mise instalita, "
 "pro tio ne eblas montri la dialogon."
 
-#: ../libgnome-media-profiles/gnome-audio-profiles-properties.c:54
+#: ../libgnome-media-profiles/gnome-audio-profiles-properties.c:52
 #, c-format
 msgid ""
 "%s\n"
@@ -151,10 +152,14 @@ msgid "List of profiles"
 msgstr "Profillisto"
 
 #: ../data/gnome-media-profiles.schemas.in.in.h:2
+#, fuzzy
 msgid ""
 "List of audio recording profiles. The list contains strings naming "
 "subdirectories relative to /system/gstreamer/@GST_MAJORMINOR@/audio/profiles."
 msgstr ""
+"Listo de sonregistrad-profiloj. La listo enhavas ĉenojn kiuj nomas "
+"subdosierujoj relative al \"/system/gstreamer/@GST_MAJORMINOR@/audio/"
+"profiles\"."
 
 #: ../data/gnome-media-profiles.schemas.in.in.h:3
 msgid "A short name for the audio profile"
@@ -165,6 +170,8 @@ msgid ""
 "A short name for the audio profile, to be used in selections and uniquely "
 "identifying the profile."
 msgstr ""
+"Mallonga nomo de sonprofilo, uzata por elektado kaj unika identigo de la "
+"profilo."
 
 #: ../data/gnome-media-profiles.schemas.in.in.h:5
 msgid "A description for the audio profile"
@@ -175,14 +182,16 @@ msgid ""
 "A description of the profile, containing more information and describing "
 "when to use this profile."
 msgstr ""
+"Profilpriskribo enhavas pliajn informojn kaj priskribon por kio tiu profilo "
+"taŭgas."
 
 #: ../data/gnome-media-profiles.schemas.in.in.h:7
 msgid "The partial GStreamer pipeline used"
-msgstr ""
+msgstr "La uzata nekompleta GStreamer-ĉenstablo"
 
 #: ../data/gnome-media-profiles.schemas.in.in.h:8
 msgid "A partial GStreamer pipeline to use for this profile."
-msgstr ""
+msgstr "Uzota nekompleta GStreamer-ĉenstablo por tiu profilo."
 
 #: ../data/gnome-media-profiles.schemas.in.in.h:9
 msgid "The default file extension for this profile"
