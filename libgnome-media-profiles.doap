@@ -7,7 +7,7 @@
   <name xml:lang="en">libgnome-media-profiles</name>
   <shortdesc xml:lang="en">GNOME Media Profiles library</shortdesc>
   <download-page rdf:resource="http://download.gnome.org/sources/libgnome-media-profiles/" />
-  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=libgnome-media-profiles" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/libgnome-media-profiles/issues/" />
 
   <!-- <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" /> -->
 
