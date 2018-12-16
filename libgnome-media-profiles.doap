@@ -9,7 +9,7 @@
   <download-page rdf:resource="http://download.gnome.org/sources/libgnome-media-profiles/" />
   <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=libgnome-media-profiles" />
 
-  <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" />
+  <!-- <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" /> -->
 
   <maintainer>
     <foaf:Person>
